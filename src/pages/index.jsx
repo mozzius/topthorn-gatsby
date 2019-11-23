@@ -12,7 +12,7 @@ export default () => {
             <Helmet>
                 <title>Topthorn Arena</title>
             </Helmet>
-            <Hero image={require('../images/yellowhorse.jpg')} height={500} />
+            <Hero image={require('../images/beach.jpg')} height={500} />
             <Page>
                 <h1>Home</h1>
             </Page>
