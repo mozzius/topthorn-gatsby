@@ -1,0 +1,18 @@
+.hero {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 60px;
+}
+
+.contentContainer {
+    width: 100%;
+    display: flex;
+}
+
+.content {
+    width: calc(100% - 20px);
+    max-width: 1000px;
+    margin: 0 auto;
+}

@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import styles from '../styles/nav.module.css'
 import { PageContext } from '../contexts/Page'
 
-const Dropdown = ({ pages, current }) => {
+const Dropdown = ({ pages, current, hideDropdown }) => {
     return (
         <div className={styles.dropdown}>
             {pages.map((page, i) => {
@@ -13,6 +13,7 @@ const Dropdown = ({ pages, current }) => {
                         style={{ animationDelay: `${i * 0.1}s` }}
                         className={current === page.name ? styles.active : null}
                         to={page.url}
+                        onClick={hideDropdown}
                     >
                         {page.name}
                     </Link>
@@ -45,7 +46,7 @@ export const Nav = ({ pages }) => {
                 <div className={styles.nav}>
                     <img className={styles.logo} src={require('../images/Main_Logo_Colour.png')} alt="Topthorn Arena Logo" />
                     <div className={styles.links}>
-                        {pageWidth < 600 ? (
+                        {pageWidth < 500 ? (
                             <Burger toggle={() => setToggled(!isToggled)} />
                         ) : pages.map((page, i) => {
                             return (
@@ -61,7 +62,7 @@ export const Nav = ({ pages }) => {
                     </div>
                 </div>
             </div>
-            {isToggled && pageWidth < 600 && <Dropdown pages={pages} current={currentPage} />}
+            {isToggled && pageWidth < 400 && <Dropdown pages={pages} current={currentPage} hideDropdown={() => setToggled(false)} />}
         </>
     )
 }

@@ -10,5 +10,9 @@ export const pages = [
     {
         url: '/about',
         name: 'About Us'
+    },
+    {
+        url: '/contact',
+        name: 'Contact'
     }
 ]

@@ -5,14 +5,14 @@ import { PageContext } from '../contexts/Page'
 
 export default () => {
     const { setCurrentPage } = useContext(PageContext)
-    setCurrentPage('Events')
+    setCurrentPage('Contact')
     return (
         <>
             <Helmet>
                 <title>Topthorn Arena</title>
             </Helmet>
             <Page>
-                <h1>Events</h1>
+                <h1>Page</h1>
             </Page>
         </>
     )
