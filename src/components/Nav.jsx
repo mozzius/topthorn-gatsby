@@ -31,9 +31,9 @@ export const Nav = ({ pages }) => {
     const [pageWidth, setPageWidth] = useState(0)
     const [isToggled, setToggled] = useState(false)
     const resize = () => { setPageWidth(window.innerWidth) }
-    window.addEventListener('resize', resize)
     useEffect(() => {
         resize()
+        window.addEventListener('resize', resize)
         return () => {
             window.removeEventListener('resize', resize)
         }
