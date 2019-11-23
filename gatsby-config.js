@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Node.js (TypeScript) API'
+    title: 'Topthorn Arena'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatsby + Node.js (TypeScript) API',
-        short_name: 'Gatbsy + Node.js (TypeScript)',
+        name: 'Topthorn Arena',
+        short_name: 'Topthorn',
         start_url: '/',
-        icon: 'src/images/gatsby-icon.png'
+        icon: 'src/images/Horse_Logo.jpg'
       }
     }
   ]
