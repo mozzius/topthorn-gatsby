@@ -10,13 +10,11 @@ export default () => {
     return (
         <>
             <Helmet>
-                <title>Topthorn Arena</title>
+                <title>Topthorn Arena | Suffolk's #1 Equestrian Center</title>
             </Helmet>
-            <Page>
-                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ratione enim, obcaecati praesentium ipsa dolorum debitis, optio fugiat, voluptatum minus doloribus incidunt rem id alias similique quasi vero exercitationem officiis.</h1>
-            </Page>
-            <Hero image={require('../images/beach.jpg')} height={500}>
-                <h1>Topthorn</h1>
+            <Hero image={require('../images/beach.jpg')} height={500} grayscale>
+                <h1>Topthorn Arena</h1>
+                <p>Suffolk's #1 Equestrian Center with indoor and outdoor arenas</p>
             </Hero>
             <Page>
                 <h1>Home</h1>
