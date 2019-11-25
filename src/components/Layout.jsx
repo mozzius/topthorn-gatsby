@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react'
 import { Nav } from './Nav'
+import {Footer} from './Footer'
 import styles from '../styles/page.module.css'
 import { PageContext } from '../contexts/Page'
 
@@ -12,6 +13,7 @@ export const Layout = ({ pages, children }) => {
             <PageContext.Provider value={value}>
                 <Nav pages={pages} />
                 {children}
+                <Footer />
             </PageContext.Provider>
         </div>
     )
