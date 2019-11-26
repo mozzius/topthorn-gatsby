@@ -19,6 +19,7 @@ export default () => {
             <Page>
                 <h1>Home</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsam nesciunt accusamus expedita id alias, tenetur quas beatae aspernatur veniam ipsa quisquam quam, debitis odit eligendi quos optio odio itaque?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe officia, deleniti veritatis obcaecati temporibus velit sunt perferendis nam! At dignissimos sed totam fugit, voluptate repudiandae qui distinctio expedita ex quos.</p>
             </Page>
             <Page blue>
                 <h3>The cafe serves cheesy chips!</h3>
