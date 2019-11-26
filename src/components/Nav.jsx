@@ -62,7 +62,7 @@ export const Nav = ({ pages }) => {
                     </div>
                 </div>
             </div>
-            {isToggled && pageWidth < 400 && <Dropdown pages={pages} current={currentPage} hideDropdown={() => setToggled(false)} />}
+            {isToggled && pageWidth < 500 && <Dropdown pages={pages} current={currentPage} hideDropdown={() => setToggled(false)} />}
         </>
     )
 }

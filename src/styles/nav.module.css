@@ -24,9 +24,10 @@
 }
 
 .hamburger {
-    font-size: 1.5em;
+    font-size: 1.8em;
     border: 0;
     padding: 0 10px 4px;
+    margin-right: 15px;
     background: none;
     cursor: pointer;
     color: white;
@@ -64,7 +65,7 @@
     position: absolute;
     top: var(--nav-height);
     width: 100%;
-    background-color: #ffffff86;
+    background-color: #ffffffe3;
     padding: 5px 0;
     opacity: 0;
     animation: fadein 0.5s;
@@ -74,6 +75,7 @@
 
 .dropdown>a {
     color: black;
+    font-weight: bold;
     text-decoration: none;
     padding: 5px 20px;
     margin: 5px 0;
