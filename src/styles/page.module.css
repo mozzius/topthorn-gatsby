@@ -22,3 +22,7 @@
 .page > p {
     font-size: 1.1em;
 }
+
+.page > h3 {
+    text-align: center;
+}

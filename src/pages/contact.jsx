@@ -23,7 +23,7 @@ export default () => {
                 <p>Fax: ???</p>
             </Page>
             <Page blue>
-                <h3 style={{ textAlign: 'center' }}>Don't forget your horse passport if you're wanting to compete!</h3>
+                <h3>Don't forget your horse passport if you're wanting to compete!</h3>
             </Page>
             <Page>
                 <h2>Our Address</h2>
