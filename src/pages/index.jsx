@@ -12,9 +12,9 @@ export default () => {
             <Helmet>
                 <title>Topthorn Arena | Suffolk's #1 Equestrian Center</title>
             </Helmet>
-            <Hero image={require('../images/beach.jpg')} height={420} grayscale>
+            <Hero image={require('../images/beach.jpg')} height={300} grayscale>
                 <h1>Topthorn Arena</h1>
-                <p>Suffolk's #1 Equestrian Center with indoor and outdoor arenas</p>
+                <h3>Suffolk's #1 Equestrian Center with indoor and outdoor arenas</h3>
             </Hero>
             <Page>
                 <h1>Home</h1>

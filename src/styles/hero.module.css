@@ -23,6 +23,10 @@
     color: white;
 }
 
-.content > p {
+.content > * {
     max-width: 400px;
+}
+
+.content > h1 {
+    font-size: 2.5em;
 }
