@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useRef, useLayoutEffect, useState } from 'react'
 import styles from '../styles/hero.module.css'
 
 export const Hero = ({ image, height, full, grayscale, children }) => {
@@ -10,7 +10,7 @@ export const Hero = ({ image, height, full, grayscale, children }) => {
         const rect = divRef.current.getBoundingClientRect()
         setOffset(rect.top + window.scrollY)
     }
-    useEffect(() => {
+    useLayoutEffect(() => {
         resize()
         window.addEventListener('resize', resize)
         return () => {
